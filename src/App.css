@@ -51,3 +51,10 @@
 ::-ms-input-placeholder { 
  color: #969090;
 }
+
+.postPosition{
+  max-height: 94vh;
+  overflow: overlay;
+}
+
+

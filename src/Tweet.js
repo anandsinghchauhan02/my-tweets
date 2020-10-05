@@ -93,7 +93,7 @@ class Tweet extends React.Component {
           <Row className="justify-content-center">
             <Col md="3">
             </Col>
-            <Col md="6">
+            <Col md="6" className="postPosition">
               <Tweets items={items} error={error} isLoaded={isLoaded}/>
             </Col>
             <Col md="3">
