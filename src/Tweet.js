@@ -94,7 +94,7 @@ class Tweet extends React.Component {
             <Col md="3">
             </Col>
             <Col md="6" className="postPosition">
-              <Tweets items={items} error={error} isLoaded={isLoaded}/>
+              { items.length > 0 ? <Tweets items={items} error={error} isLoaded={isLoaded} />:<h3>Loading...</h3>}
             </Col>
             <Col md="3">
               <form onSubmit={this.handleSearch}>
