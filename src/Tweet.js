@@ -100,7 +100,7 @@ class Tweet extends React.Component {
               <form onSubmit={this.handleSearch}>
                 <div className="wrap">
                   <div className="search">
-                    <input type="text" className="searchTerm" onChange={this.handleChange} placeholder="Search Twitter" />
+                    <input type="text" className="searchTerm" onChange={this.handleChange} placeholder="Search by username" />
                     <button type="submit" className="searchButton">
                       <i className="fa fa-search"></i>
                     </button>
